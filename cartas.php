@@ -90,7 +90,7 @@ do{
         
         //jogo
         case 1:
-            $cartaSorteada = $cartas[rand(0,13)];
+            $cartaSorteada = $cartas[array_rand($array)];
             $pontuacaoPartida = 0;
             $qtdDicas = 3;
             $chances = 5;

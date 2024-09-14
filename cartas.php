@@ -99,8 +99,7 @@ do{
             foreach ($cartas as $c) {
                 echo $c;
             }
-
-            echo "\n\nCarta sorteada:".$cartaSorteada;//apenas para teste, apagar isso depois.
+        
             echo "\nDescrição: ".$cartaSorteada->getDescricao()."\n\nBaseado na descrição prévida do personagem, qual é a sua carta?\n";
             
             for ($i=0; $i < 5; $i++){ 
